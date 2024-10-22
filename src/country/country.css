@@ -1,0 +1,47 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+.countriesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 16px;
+}
+
+.country {
+  border: 2px solid gainsboro;
+  border-radius: 1rem;
+  padding: 16px;
+}
+.details {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding-left: 16px;
+  gap: 0 16px;
+}
+
+.img {
+  width: 320px;
+  height: 200px;
+  border: 1px solid gainsboro;
+}
+
+.btn {
+  border: 1px solid gainsboro;
+}
+.btn:focus,
+.btn:active {
+  outline: none;
+}
+
+.visitedCountry {
+  margin-left: 32px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: start;
+  border: 2px solid gainsboro;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
